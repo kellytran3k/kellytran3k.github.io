@@ -1,0 +1,350 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Vibur&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+
+/*
+COLORS:
+ rgb(230, 0, 120); pink
+*/
+
+body {
+    background-image: url("https://www.dropbox.com/s/2ct0i6kc61vp0bh/wall.jpg?raw=1");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-color: #141414;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+
+h2 {
+	text-align: center;
+	margin: 0;
+}
+
+p {
+	color: #3d5c7b;
+	font-weight: 200;
+	padding: 10px;
+}
+
+b {
+	font-weight: 1000;
+	font-size: 17px;
+}
+
+::-moz-selection {
+   background-color: white;
+   color: #808080;
+}
+::selection {
+    background-color: white;
+    color: #808080;
+}
+
+iframe {
+	width: 80%;
+	height: 500px;
+	float: center;
+	margin: 0 auto;
+	padding: 0;
+	margin-top: 40px;
+	display: block;
+	border: none;
+	border-radius: 25px;
+	border: solid 10px #cccccc;
+}
+
+
+
+
+/*---------------------sec 1------------------- */
+
+.sec1 {
+    background: #edb49a;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+	width: 80%;
+    min-height: 320px;
+    align-content: center;
+}
+
+.sign {
+    padding: 70px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.neon-title {
+    font-family: "Vibur", cursive;
+    font-size: 7rem;
+    text-align: center;
+    line-height: 1;
+    color: #c6e2ff;
+    animation: neon .08s ease-in-out infinite alternate;
+}
+
+.neon-group {
+    position: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.neon-button-box {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    margin: 30px 0 0 30px;
+    border-radius: 8px;
+    border: 3px solid rgb(0, 40, 70);
+    cursor: pointer;
+  }  
+
+
+/*---------------------sec 2------------------- */
+
+.sec2 {
+    background: #e27982;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 80%;
+    align-content: center;
+}
+
+
+
+/*---------------------sec 3------------------- */
+
+.sec3 {
+    background: #b57185;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 80%;
+    align-content: center;
+}
+
+
+
+
+
+@keyframes text-flicker {
+    2% { 
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    3% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    6% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    9% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    11% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    14% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    18% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    32% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    33% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    37% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    39% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    43% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    46% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    47% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    100% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+  }
+  
+  @keyframes letter-flicker {
+      2% { 
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    3% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    6% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    9% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    11% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    14% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    18% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    32% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    33% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    37% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    39% {
+      color: rgba(120, 0, 50, .5);
+      text-shadow: none;
+    }
+    40% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+    100% {
+      color: rgb(230, 0, 120);
+      text-shadow: 0 0 15px rgb(230, 0, 120);
+    }
+  }
+  
+  @keyframes border-flicker {
+    2% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    3% {
+      border: 3px solid rgb(0, 40, 70);
+      box-shadow: none;
+    }
+    5% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    6% {
+      border: 3px solid rgb(0, 40, 70);
+      box-shadow: none;
+    }
+    7% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    9% {
+      border: 3px solid rgb(0, 40, 70);
+      box-shadow: none;
+    }
+    13% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    16% {
+      border: 3px solid rgb(0, 40, 70);
+      box-shadow: none;
+    }
+    18% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    22% {
+      border: 3px solid rgb(0, 40, 70);
+      box-shadow: none;
+    }
+    34% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    36% {
+      border: 3px solid rgb(0, 40, 70);
+      box-shadow: none;
+    }
+    54% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    100% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+  }
+
+
+  @keyframes neon {
+    from {
+      text-shadow:
+      0 0 6px rgba(202,228,225,0.92),
+      0 0 30px rgba(202,228,225,0.34),
+      0 0 12px rgba(30,132,242,0.52),
+      0 0 21px rgba(30,132,242,0.92),
+      0 0 34px rgba(30,132,242,0.78),
+      0 0 54px rgba(30,132,242,0.92);
+    }
+    to {
+      text-shadow:
+      0 0 6px rgba(202,228,225,0.98),
+      0 0 30px rgba(202,228,225,0.42),
+      0 0 12px rgba(30,132,242,0.58),
+      0 0 22px rgba(30,132,242,0.84),
+      0 0 38px rgba(30,132,242,0.88),
+      0 0 60px rgba(30,132,242,1);
+    }
+  }
+
