@@ -50,16 +50,19 @@ h2 {
 p {
 	color: white;
   font-family: vt321;
-  padding: 10px;
-  font-size: 60px;
+  font-size: 600%;
   display: block;
-  padding: 10px;
+  text-align: center;
+
 }
 
 pp {
 	color: white;
   font-family: vt321;
-  font-size: 40px;
+  font-size: 30px;
+  display: block;
+  text-align: center;
+  padding-bottom: 10%;
 }
 
 b {
@@ -79,6 +82,8 @@ iframe {
 	border-radius: 25px;
 	border: solid 10px #cccccc;
 }
+
+/*-----------------------SOCIAL MEDIA ICONS-------------------------------*/
 
 .fa {
   padding: 13px;
@@ -136,22 +141,40 @@ iframe {
   min-width: 28%;
   max-width: fit-content;
 }
+/*---------------------SEC 1------------------- */
 
+/*resume button*/
+a.button1 {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #FFFFFF;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: vt321;
+  font-weight: 300;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 0.2s;
+}
 
+a.button1:hover{
+  color:#000000;
+  background-color:#FFFFFF;
+}
 
-
-
-/*---------------------sec 1------------------- */
+/*---------------------BACKDROP------------------- */
 
 .sec {
     background-repeat: no-repeat;
-    min-height: 320px;
+    min-height: fit-content;
     display: block;
     margin-left: auto;
     margin-right: auto;
     background: rgb(85, 78, 78); /* Fallback for older browsers without RGBA-support */
     background: rgba(0, 0, 0, 0.8);
-    width: 80%;
+    max-width: 50%;
     min-width: 500px;
     border-radius: 2.5%;
 }
@@ -169,7 +192,67 @@ iframe {
   width: 80%;
 }
 
-.sign {
+/*---------------------font------------------- */
+
+@font-face {
+  font-family: vt321;
+  src: url(/Users/kellytran/kellytranweb/vt323/VT323-Regular.ttf 
+  );
+  color: white;
+}
+
+@font-face {
+  font-family: silkscreen;
+  src: url(/Users/kellytran/kellytranweb/Silkscreen/slkscr.ttf 
+  );
+  color: white;
+}
+
+/*---------------------neon------------------- */
+
+
+
+  
+  @keyframes border-flicker {
+    5% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+    16% {
+      border: 3px solid rgb(0, 40, 70);
+      box-shadow: none;
+    }
+    34% {
+      border: 3px solid rgb(0, 180, 230);
+      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
+      0 0 12px -1px rgb(0, 180, 230) inset;
+    }
+  }
+
+
+  @keyframes neon {
+    from {
+      text-shadow:
+      0 0 6px rgba(202,228,225,0.92),
+      0 0 30px rgba(202,228,225,0.34),
+      0 0 12px rgba(30,132,242,0.52),
+      0 0 21px rgba(30,132,242,0.92),
+      0 0 34px rgba(30,132,242,0.78),
+      0 0 54px rgba(30,132,242,0.92);
+    }
+    to {
+      text-shadow:
+      0 0 6px rgba(202,228,225,0.98),
+      0 0 30px rgba(202,228,225,0.42),
+      0 0 12px rgba(30,132,242,0.58),
+      0 0 22px rgba(30,132,242,0.84),
+      0 0 38px rgba(30,132,242,0.88),
+      0 0 60px rgba(30,132,242,1);
+    }
+  }
+
+  .sign {
     padding: 70px;
     min-height: 100%;
     display: flex;
@@ -204,69 +287,4 @@ iframe {
     border: 3px solid rgb(0, 40, 70);
     cursor: pointer;
   }  
-
-
-/*---------------------font------------------- */
-
-@font-face {
-  font-family: vt321;
-  src: url(/Users/kellytran/kellytranweb/vt323/VT323-Regular.ttf 
-  );
-  color: white;
-}
-
-@font-face {
-  font-family: silkscreen;
-  src: url(/Users/kellytran/kellytranweb/Silkscreen/slkscr.ttf 
-  );
-  color: white;
-}
-
-
-
-/*---------------------neon------------------- */
-
-
-
-  
-  @keyframes border-flicker {
-    5% {
-      border: 3px solid rgb(0, 180, 230);
-      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
-      0 0 12px -1px rgb(0, 180, 230) inset;
-    }
-    16% {
-      border: 3px solid rgb(0, 40, 70);
-      box-shadow: none;
-    }
-    34% {
-      border: 3px solid rgb(0, 180, 230);
-      box-shadow: 0 0 15px -1px rgb(0, 180, 230), 
-      0 0 12px -1px rgb(0, 180, 230) inset;
-    }
-
-
-  }
-
-
-  @keyframes neon {
-    from {
-      text-shadow:
-      0 0 6px rgba(202,228,225,0.92),
-      0 0 30px rgba(202,228,225,0.34),
-      0 0 12px rgba(30,132,242,0.52),
-      0 0 21px rgba(30,132,242,0.92),
-      0 0 34px rgba(30,132,242,0.78),
-      0 0 54px rgba(30,132,242,0.92);
-    }
-    to {
-      text-shadow:
-      0 0 6px rgba(202,228,225,0.98),
-      0 0 30px rgba(202,228,225,0.42),
-      0 0 12px rgba(30,132,242,0.58),
-      0 0 22px rgba(30,132,242,0.84),
-      0 0 38px rgba(30,132,242,0.88),
-      0 0 60px rgba(30,132,242,1);
-    }
-  }
 
