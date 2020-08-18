@@ -4,11 +4,15 @@
 
 /*
 COLORS:
- rgb(230, 0, 120); pink
+  black: #000000
+  violet: #1B062A
+  purple: #4E08B7
+  hopbusk: #D056A2
+  scooter: #2FB8D0
 */
 
 body {
-    background-image: url("https://www.dropbox.com/s/2ct0i6kc61vp0bh/wall.jpg?raw=1");
+    background-image: url(/Users/kellytran/kellytranweb/images/city.gif);
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
@@ -17,7 +21,6 @@ body {
     justify-content: center;
     align-items: center;
     display: inline;
-    font-family: 'Work Sans', sans-serif;
     margin: 0;
     background-attachment: fixed;
 }
@@ -29,23 +32,21 @@ h2 {
 }
 
 p {
-	color: #3d5c7b;
-	font-weight: 200;
-	padding: 10px;
+	color: white;
+  font-family: vt321;
+  padding: 5px;
+  font-size: 60px;
+}
+
+subp {
+	color: white;
+  font-family: vt321;
+  font-size: 40px;
 }
 
 b {
 	font-weight: 1000;
 	font-size: 17px;
-}
-
-::-moz-selection {
-   background-color: white;
-   color: #808080;
-}
-::selection {
-    background-color: white;
-    color: #808080;
 }
 
 iframe {
@@ -66,14 +67,16 @@ iframe {
 
 /*---------------------sec 1------------------- */
 
-.sec1 {
-    background: #edb49a;
+.sec {
+    background: #000000;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-	width: 80%;
     min-height: 320px;
-    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(85, 78, 78); /* Fallback for older browsers without RGBA-support */
+    background: rgba(0, 0, 0, 0.8);
+    width: 80%;
 }
 
 .sign {
@@ -113,151 +116,28 @@ iframe {
   }  
 
 
-/*---------------------sec 2------------------- */
+/*---------------------font------------------- */
 
-.sec2 {
-    background: #e27982;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    width: 80%;
-    align-content: center;
+@font-face {
+  font-family: vt321;
+  src: url(/Users/kellytran/kellytranweb/vt323/VT323-Regular.ttf 
+  );
+  color: white;
+}
+
+@font-face {
+  font-family: silkscreen;
+  src: url(/Users/kellytran/kellytranweb/Silkscreen/slkscr.ttf 
+  );
+  color: white;
 }
 
 
 
-/*---------------------sec 3------------------- */
-
-.sec3 {
-    background: #b57185;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    width: 80%;
-    align-content: center;
-}
+/*---------------------neon------------------- */
 
 
 
-
-
-@keyframes text-flicker {
-    2% { 
-      color: rgb(230, 0, 120);
-      text-shadow: 0 0 15px rgb(230, 0, 120);
-    }
-    3% {
-      color: rgba(120, 0, 50, .5);
-      text-shadow: none;
-    }
-    6% {
-      color: rgb(230, 0, 120);
-      text-shadow: 0 0 15px rgb(230, 0, 120);
-    }
-    9% {
-      color: rgba(120, 0, 50, .5);
-      text-shadow: none;
-    }
-    11% {
-      color: rgb(230, 0, 120);
-      text-shadow: 0 0 15px rgb(230, 0, 120);
-    }
-    14% {
-      color: rgba(120, 0, 50, .5);
-      text-shadow: none;
-    }
-    18% {
-      color: rgb(230, 0, 120);
-      text-shadow: 0 0 15px rgb(230, 0, 120);
-    }
-    32% {
-      color: rgb(230, 0, 120);
-      text-shadow: 0 0 15px rgb(230, 0, 120);
-    }
-    33% {
-      color: rgba(120, 0, 50, .5);
-      text-shadow: none;
-    }
-    37% {
-      color: rgb(230, 0, 120);
-      text-shadow: 0 0 15px rgb(230, 0, 120);
-    }
-    39% {
-      color: rgba(120, 0, 50, .5);
-      text-shadow: none;
-    }
-    43% {
-      color: rgb(230, 0, 120);
-      text-shadow: 0 0 15px rgb(230, 0, 120);
-    }
-    46% {
-      color: rgba(120, 0, 50, .5);
-      text-shadow: none;
-    }
-    47% {
-      color: rgb(230, 0, 120);
-      text-shadow: 0 0 15px rgb(230, 0, 120);
-    }
-    100% {
-      color: rgb(230, 0, 120);
-      text-shadow: 0 0 15px rgb(230, 0, 120);
-    }
-  }
-  
-  @keyframes letter-flicker {
-      2% { 
-      color: rgb(230, 0, 120);
-      text-shadow: 0 0 15px rgb(230, 0, 120);
-    }
-    3% {
-      color: rgba(120, 0, 50, .5);
-      text-shadow: none;
-    }
-    6% {
-      color: rgb(230, 0, 120);
-      text-shadow: 0 0 15px rgb(230, 0, 120);
-    }
-    9% {
-      color: rgba(120, 0, 50, .5);
-      text-shadow: none;
-    }
-    11% {
-      color: rgb(230, 0, 120);
-      text-shadow: 0 0 15px rgb(230, 0, 120);
-    }
-    14% {
-      color: rgba(120, 0, 50, .5);
-      text-shadow: none;
-    }
-    18% {
-      color: rgb(230, 0, 120);
-      text-shadow: 0 0 15px rgb(230, 0, 120);
-    }
-    32% {
-      color: rgb(230, 0, 120);
-      text-shadow: 0 0 15px rgb(230, 0, 120);
-    }
-    33% {
-      color: rgba(120, 0, 50, .5);
-      text-shadow: none;
-    }
-    37% {
-      color: rgb(230, 0, 120);
-      text-shadow: 0 0 15px rgb(230, 0, 120);
-    }
-    39% {
-      color: rgba(120, 0, 50, .5);
-      text-shadow: none;
-    }
-    40% {
-      color: rgb(230, 0, 120);
-      text-shadow: 0 0 15px rgb(230, 0, 120);
-    }
-    100% {
-      color: rgb(230, 0, 120);
-      text-shadow: 0 0 15px rgb(230, 0, 120);
-    }
-  }
   
   @keyframes border-flicker {
     2% {
