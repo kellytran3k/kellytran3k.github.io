@@ -12,7 +12,7 @@ COLORS:
 */
 
 body {
-    background-image: url(/Users/kellytran/kellytranweb/images/city.gif);
+    background-image: url('images/city.gif');
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
@@ -25,20 +25,15 @@ body {
     background-attachment: fixed;
 }
 
-.left {
-  float: left;
-  padding: 0 20px 20px 0;
- }
 
 .profile_photo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  max-width: 25%;
   border: 20px solid #1B062A;
   border-radius: 50%;
   min-width: 425px;
-  max-width: fit-content;
 }
 
 
@@ -53,7 +48,6 @@ p {
   font-size: 600%;
   display: block;
   text-align: center;
-
 }
 
 pp {
@@ -86,7 +80,7 @@ iframe {
 /*-----------------------SOCIAL MEDIA ICONS-------------------------------*/
 
 .fa {
-  padding: 13px;
+  padding: 10px;
   font-size: 30px;
   width: 20px;
   text-align: center;
@@ -141,6 +135,7 @@ iframe {
   min-width: 28%;
   max-width: fit-content;
 }
+
 /*---------------------SEC 1------------------- */
 
 /*resume button*/
@@ -164,6 +159,26 @@ a.button1:hover{
   background-color:#FFFFFF;
 }
 
+/*---------------------PIXEL ART------------------- */
+
+div.scrollmenu {
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+  
 /*---------------------BACKDROP------------------- */
 
 .sec {
@@ -174,9 +189,24 @@ a.button1:hover{
     margin-right: auto;
     background: rgb(85, 78, 78); /* Fallback for older browsers without RGBA-support */
     background: rgba(0, 0, 0, 0.8);
-    max-width: 50%;
+    max-width: 40%;
     min-width: 500px;
     border-radius: 2.5%;
+    margin-bottom: 1%;
+}
+
+.sec2 {
+  background-repeat: no-repeat;
+  min-height: fit-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(85, 78, 78); /* Fallback for older browsers without RGBA-support */
+  background: rgba(0, 0, 0, 0.8);
+  max-width: 50%;
+  min-width: 500px;
+  border-radius: 2.5%;
+  margin-bottom: 1%;
 }
 
 .subp {
@@ -196,20 +226,11 @@ a.button1:hover{
 
 @font-face {
   font-family: vt321;
-  src: url(/Users/kellytran/kellytranweb/vt323/VT323-Regular.ttf 
-  );
-  color: white;
-}
-
-@font-face {
-  font-family: silkscreen;
-  src: url(/Users/kellytran/kellytranweb/Silkscreen/slkscr.ttf 
-  );
+  src: url('vt323/VT323-Regular.ttf');
   color: white;
 }
 
 /*---------------------neon------------------- */
-
 
 
   
@@ -275,6 +296,8 @@ a.button1:hover{
     text-align: center;
     justify-content: center;
     align-content: center;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
