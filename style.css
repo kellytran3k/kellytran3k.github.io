@@ -33,7 +33,7 @@ body {
   max-width: 25%;
   border: 20px solid #1B062A;
   border-radius: 50%;
-  min-width: 425px;
+  min-width: 400px;
 }
 
 
@@ -62,6 +62,16 @@ pp {
 b {
 	font-weight: 1000;
 	font-size: 17px;
+}
+
+.audio{
+  width:100%;
+  color: #141414;
+}
+
+.audio audio{
+  margin: 0 auto;
+  display: table;
 }
 
 iframe {
