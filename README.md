@@ -2,10 +2,6 @@
 Jackal is a very lightweight theme for Jekyll.  
 Feel free to fork, change, modify and re-use it.
 
-### Screenshots
-![](https://cloud.githubusercontent.com/assets/447956/17020916/9ed9ce1a-4f44-11e6-80d5-26df9d219dd2.PNG)
-![](https://cloud.githubusercontent.com/assets/447956/17020915/9ed939f0-4f44-11e6-9e8e-3a8e5562b0da.PNG)
-
 # Usage
 Be sure to have both `jekyll` and `jekyll-paginate` gem installed.
 
