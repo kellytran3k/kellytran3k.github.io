@@ -24,9 +24,9 @@ hey, at least it's a cute duck.
 
 ## Takeaway:
 
-We ended up winning 4th overall. I was in charge of implementing the Twitter bot itself. The biggest challenge for me was implementing the **Twitter API** to send automated and consistent DMs (direct messages) to users from the bot. 
+We ended up winning **4th** overall. I was in charge of implementing the Twitter bot itself. The biggest challenge for me was using the **Twitter API** to send automated and consistent DMs (direct messages) to users from the bot. 
 
-Oh, look there's my [Twitter](https://twitter.com/kellyuyuu) cameo too!
+Oh look, there's my [Twitter](https://twitter.com/kellyuyuu) cameo too!
 
 This was *suprisingly* my first time actively working with **Python** ever (real shocker as a third-year, I know).
 

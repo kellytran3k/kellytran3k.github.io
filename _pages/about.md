@@ -31,7 +31,7 @@ a student, developer, & lover of avatar: the last airbender.
 
 I'm the daughter of Vietnamese refugees and heroes. I was born and raised on the outskirts of Atlanta, in a low-income household in a majority minority area. I am a first-generation college student, meaning that I am the first person in my extended family to attend college. **I am set to graduate from Georgia Tech in Spring 2022.**
 
-I am a curious individual who always aims to exceed expectations, and a fast learner in areas where I lack experience. Most of my technical knowledge comes from **hackathons**, **classes**, and [**experience**](/work/) as a TA and research assistant. In addition, I have recently been introducting myself to info-security topics as well. I like to do practice by playing [CTF wargames](https://overthewire.org/wargames/). I strive to constantly learn, develop ethical code, and be the best who I can be. :)
+I am a curious individual who always aims to exceed expectations, and a fast learner in areas where I lack experience. Most of my technical knowledge comes from **hackathons**, **classes**, and [**experience**](/work/) as a TA and research assistant. In addition, I have recently been introducting myself to info-security topics as well. I like to practice by playing [CTF wargames](https://overthewire.org/wargames/). I strive to constantly learn, develop ethical code, and be the best who I can be. :)
 
 ---
 
