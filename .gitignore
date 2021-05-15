@@ -2,3 +2,4 @@ _site
 .sass-cache
 .jekyll-metadata
 npm-debug.log
+.jekyll-cache/Jekyll/Cache
