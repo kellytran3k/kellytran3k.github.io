@@ -50,6 +50,5 @@ it's what i mostly listen to when i code lol. the combination of bubble gum pop 
 **tv shows**
 currently: fumetsu no anata e (to your eternity), haikkyu!!
 
-
 </div>
 
