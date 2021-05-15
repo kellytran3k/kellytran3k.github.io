@@ -1,0 +1,27 @@
+I"�<h2 id="mvp-ios-application-to-gamify-recycling-in-atlanta">MVP iOS application to gamify recycling in Atlanta</h2>
+
+<p><strong>Pet Pals</strong> targets university students and aims to incentivise recycling through a virtual pet known as a <em>Pet Pal</em>.</p>
+
+<p>I worked with <strong>Georgia State University</strong> to research how to use technology to <em>shift</em> behavioral actions and habits in college students.</p>
+
+<p>The application utilizes a <strong>virtual pet</strong> that has a depleting characteristics as time goes by. These characteristics include hunger and attention. Users have to go to registered recycling bins on the university campus to <strong>scan a QR code</strong> in order for their pet to receive 1 of 3 health points (food, care, or love) in order to keep their virtual pet happy.</p>
+
+<h2 id="utilized-technology">Utilized Technology:</h2>
+
+<ul>
+  <li>Google Maps API</li>
+  <li>Firebase</li>
+  <li>QR technology</li>
+</ul>
+
+<p>…to create branching features to integrate gamification techniques into recycling behaviors.</p>
+
+<h2 id="takeaway">Takeaway:</h2>
+
+<p>This was my <strong>first</strong> big coding project. I was still taking introduction courses at this time. Tackling on an impactful project like <em>Pet Pals</em> was daunting to me.</p>
+
+<p>However, I took the challenge head on. It was the most I’ve ever learned on a single project.
+I was in charge of <strong>setting up the entire app from scratch</strong>. In the 6 months that I was there, I self-taugh myself <strong>Swift</strong>, <strong>iOS</strong> application development, and basic <strong>UI/UX</strong> research and techniques.</p>
+
+<p>Special thank you to my project mentor: <em>Dr. Awad Mussa</em></p>
+:ET

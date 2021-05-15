@@ -1,0 +1,59 @@
+I"�<h2 id="a-simulator-that-mimicked-the-procedures-of-the-georgia-institute-of-technologys-covid-19-testing-response-system">A simulator that mimicked the procedures of the Georgia Institute of Technology’s Covid-19 testing response system</h2>
+
+<p>This simulator is the result of a final group project for <strong>CS 4400</strong> <em>(Intro to Database Systems).</em></p>
+
+<p>The goal of the project was to <em>fully implement</em> amd <em>simulate</em> the testing procedures used at
+<strong>Georgia Tech</strong> during the <em>COVID-19 pandemic</em>.</p>
+
+<p>This was done using a mock SQL database to read and update data with <strong>Flask</strong> and <strong>Python3</strong>. <strong>PyMySQL</strong> and <strong>MySQL</strong> workbench was used for the database API and <strong>Anaconda</strong> for the virtual environment.</p>
+
+<p>This system calls from a database to allow faculty and students to:</p>
+<ul>
+  <li>view and filter through available testing appointments</li>
+  <li>set and update testing appointments</li>
+  <li>view and filter through available testing sites</li>
+  <li>view individual testing results</li>
+  <li>filter and view congregated (pooled) testing results</li>
+</ul>
+
+<p>In addition, lab technicians, site testers, and admins were able to
+update data in real time.</p>
+
+<p>Meaningful data includes:</p>
+<ul>
+  <li>individual testing results</li>
+  <li>pooled testing results</li>
+  <li>testing sites</li>
+  <li>testing appointments</li>
+</ul>
+
+<h2 id="sample-python-code-to-view-daily-results">Sample Python Code to ‘View Daily Results’:</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">@</span><span class="n">app</span><span class="p">.</span><span class="n">route</span><span class="p">(</span><span class="s">'/view_daily_results'</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s">'GET'</span><span class="p">,</span> <span class="s">'POST'</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">view_daily_results</span><span class="p">():</span>
+    <span class="n">msg</span> <span class="o">=</span> <span class="s">''</span>
+    <span class="c1"># connects w database
+</span>    <span class="n">cursor</span> <span class="o">=</span> <span class="n">connection</span><span class="p">.</span><span class="n">cursor</span><span class="p">()</span>
+    <span class="c1"># calls daily_results on database
+</span>    <span class="n">cursor</span><span class="p">.</span><span class="n">callproc</span><span class="p">(</span><span class="s">'daily_results'</span><span class="p">)</span>
+    <span class="n">connection</span><span class="p">.</span><span class="n">commit</span><span class="p">()</span>
+
+    <span class="c1"># fetches the daily results
+</span>    <span class="n">cursor</span><span class="p">.</span><span class="n">execute</span><span class="p">(</span><span class="s">'SELECT * FROM daily_results_result'</span><span class="p">)</span>
+    <span class="n">resultDetails</span> <span class="o">=</span> <span class="n">cursor</span><span class="p">.</span><span class="n">fetchall</span><span class="p">()</span>
+
+    <span class="c1"># returns daily results
+</span>    <span class="k">return</span> <span class="n">render_template</span><span class="p">(</span><span class="s">'view_daily_results.html'</span><span class="p">,</span>
+        <span class="n">resultDetails</span><span class="o">=</span><span class="n">resultDetails</span><span class="p">)</span>
+
+
+</code></pre></div></div>
+
+<h2 id="conclusion">Conclusion:</h2>
+
+<p>Through this project, I learned the <strong>integration process of SQL database with Python3</strong> in order to develop a web application that updated and retrieved data in real time. This was one of my first times using a <strong>virtual environment</strong> to implement code, as well as using <strong>MySQL</strong> to call datasets. The web application can be functionally run locally. However, there is currently no plan of putting this simulator online.</p>
+
+<p><em>Special thank you to: Michael Piseno, Yun Ha Jeon, and Holly M.</em></p>
+
+<p>GitHub link: <a href="https://github.com/kellytran3k/covid-testing-db">GT Testing Simulator</a></p>
+:ET

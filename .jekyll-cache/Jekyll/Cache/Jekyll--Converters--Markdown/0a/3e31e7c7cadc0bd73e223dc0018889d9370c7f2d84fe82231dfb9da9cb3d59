@@ -1,0 +1,48 @@
+I"S
+<div class="pretty-links">
+
+  <div class="lead lead-about">
+    <p>a student, developer, &amp; lover of avatar: the last airbender.</p>
+  </div>
+
+  <p><img src="/_pages/profile.png" alt="me!" style="float: right;margin-left: 20px;margin-right: 3%;margin-top: 5px;    height: 50%;    
+  max-width: 300px;
+  min-width: 200px;
+  height: 100%;
+  max-height: 300px;
+  min-height: 200px;
+  margin-bottom:8px;
+  box-shadow: 3px 3px 1px #ccc;
+  -webkit-box-shadow: 5px 5px 3px #ccc;
+  -moz-box-shadow: 3px 3px 1px #ccc;
+  border: 0.1px solid #ccc;
+" /></p>
+
+  <!-- about me -->
+
+  <p><strong>Hello!</strong> I’m a 4th year at <a href="https://www.gatech.edu">Georgia Tech</a> studying <strong>Computer Science</strong>. My threads are in <a href="https://catalog.gatech.edu/programs/media-information-internetworks-computer-science-bs/">Infonetworks x Media</a>, and I am interested in the intersection of humans &amp; computers, info-security, and the ethics of computing.</p>
+
+  <p>I’m the daughter of <strong>Vietnamese refugees</strong> and <strong>heroes</strong>. I was born and raised on the outskirts of Atlanta, in a low-income household in a majority minority area. I am a first-generation college student, meaning that I am the first person in my extended family to attend college. <strong>I am set to graduate from Georgia Tech in Spring 2022.</strong></p>
+
+  <p>I am a curious individual who always aims to exceed expectations, and a fast learner in areas where I lack experience. Most of my technical knowledge comes from <strong>hackathons</strong>, <strong>classes</strong>, and <a href="/work/"><strong>experience</strong></a> as a TA and research assistant. In addition, I have recently been introducting myself to info-security topics as well. I like to do practice by playing <a href="https://overthewire.org/wargames/">CTF wargames</a>. I strive to constantly learn, develop ethical code, and be the best who I can be. :)</p>
+
+  <hr />
+
+  <!-- personal interests -->
+  <h1 id="personal-interests">Personal Interests</h1>
+
+  <p><strong>tennis &amp; volleyball</strong>
+let’s play a game some time :)</p>
+
+  <p><strong>food</strong>
+in my free time you’ll find me watching food reviews or cooking yummy foods. sometime in the near future, i want to do an international food tour!</p>
+
+  <p><strong>k-pop</strong>
+it’s what i mostly listen to when i code lol. i don’t even care if it’s cringey, the bubble gum pop sound is really addicting! my favorite groups are bts, mamamoo, twice, gfriend, and red velvet.</p>
+
+  <p><strong>tv shows</strong>
+currently: fumetsu no anata e (to your eternity), haikkyu!!</p>
+
+</div>
+
+:ET

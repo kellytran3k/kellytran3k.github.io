@@ -1,0 +1,72 @@
+I"�<h1 id="outline">Outline</h1>
+
+<p>I’ve been fascinated with the info-security/cybersecurity world lately. A friend of mine told me to start with <a href="https://overthewire.org/wargames/bandit/">BanditOverTheWire</a>. BanditOverTheWire serves as an introduction to advanced terminal commands that allows a players to find the ‘flag’ in each level. Each flag serves as a password to get to the next level. At the time of writing this, I am on level 15.</p>
+
+<p>I’d like to do a walkthrough on one of my favorite levels so far, level 5.</p>
+
+<p>To follow along simply run this command in your terminal:</p>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">ssh bandit5@bandit.labs.overthewire.org -p2220</code></p>
+</blockquote>
+
+<p>nter this password:</p>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">koReBOKuIDDepwhWk7jZC0RTdopnAYKh</code></p>
+</blockquote>
+
+<h1 id="concept">Concept</h1>
+
+<p>In level 5, the goal is to find the password that is stored in a nested directory in the <code class="language-plaintext highlighter-rouge">inhere</code> directory that is:</p>
+
+<ul>
+  <li>human-readable</li>
+  <li>1033 bytes in size</li>
+  <li>not executable</li>
+</ul>
+
+<p>When we first <code class="language-plaintext highlighter-rouge">cd</code> into <code class="language-plaintext highlighter-rouge">inhere</code> and type in <code class="language-plaintext highlighter-rouge">ls</code>, we see that there are <strong>multiple directories</strong> that the password could be <strong>hidden</strong> in.</p>
+
+<p><img src="/assets/img/banditoverthewire-level5/first.png" alt="first" /></p>
+
+<p>Upon using the command <code class="language-plaintext highlighter-rouge">cd maybehere00</code> to go inside the <code class="language-plaintext highlighter-rouge">mayberhere00</code> directory, we see that there are <strong>many files inside the directory</strong>.</p>
+
+<p><img src="/assets/img/banditoverthewire-level5/second.png" alt="first" /></p>
+
+<p><strong>Oh no! What do we do?</strong> Each directory has many files of their own as well. There’s simply too many files for any sane person to check. We <strong>have</strong> to get the password somehow.</p>
+
+<p>Luckily, we have a <strong>set of commands</strong> that the level advised us to take a closer look at.
+We can type in the command line <code class="language-plaintext highlighter-rouge">man</code> following the command to open the manual and access the full description of what the command does. For now, here’s the TLDR:</p>
+<ul>
+  <li>ls - displays whats in a directory</li>
+  <li>cd - jumps into a directory</li>
+  <li>cat - prints whats in a readable-file</li>
+  <li>file - determins file type</li>
+  <li>du - estimates file space usage</li>
+  <li>find - searches for files in a directory hierarchy</li>
+</ul>
+
+<p>If we look closely at the manual for <code class="language-plaintext highlighter-rouge">find</code> we can see that there is a <code class="language-plaintext highlighter-rouge">-type</code> predicate that can be used after <code class="language-plaintext highlighter-rouge">find</code> to filter for a specific type of file.</p>
+
+<p>Since we want to find something that is human-readable and regular, we will use <code class="language-plaintext highlighter-rouge">-type f</code>.</p>
+
+<p>if we type <code class="language-plaintext highlighter-rouge">find ./ -type f</code> we still end up with a lot of files. 
+Let’s add to our command to see if we can narrow it down some more.</p>
+
+<p>Next, we want to filter for <strong>1033 bytes size</strong> and <strong>non-executable</strong> file.</p>
+
+<p>Going back to the <code class="language-plaintext highlighter-rouge">find</code> manual, we find other predicates that could be useful to use.</p>
+
+<p><code class="language-plaintext highlighter-rouge">-size</code> and <code class="language-plaintext highlighter-rouge">-executable</code> (make sure to add <code class="language-plaintext highlighter-rouge">!</code> in front of <code class="language-plaintext highlighter-rouge">-executable</code> because we are looking for a non-executable file!)</p>
+
+<p>Thus, we combine all 3 predicates to make</p>
+
+<p><code class="language-plaintext highlighter-rouge">find ./ -type f -size 1033c ! -executable</code></p>
+
+<p><img src="/assets/img/banditoverthewire-level5/third.png" alt="first" /></p>
+
+<p>We simply <code class="language-plaintext highlighter-rouge">cat ./maybehere07/.file2</code> from here to find the password for level 9.</p>
+
+<p><img src="/assets/img/banditoverthewire-level5/fourth.png" alt="first" /></p>
+
+<p><strong>We’ve successfully captured the flag</strong> <code class="language-plaintext highlighter-rouge">DXjZPULLxYr17uwoI01bNLQbtFemEgo7</code></p>
+:ET

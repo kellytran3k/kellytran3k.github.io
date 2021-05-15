@@ -1,0 +1,26 @@
+I"�<h2 id="in-a-48-hour-twitter-hackathon-we-built">In a 48-hour Twitter Hackathon we built…</h2>
+
+<p>…a duck?</p>
+
+<p>hey, at least it’s a cute duck.</p>
+
+<style>
+.responsive-wrap iframe{ max-width: 100%;}
+</style>
+<div class="responsive-wrap">
+<!-- this is the embed code provided by Google -->
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRFQf3mD2X6b_rhmfOPmntkBihyT89Qwn-otn0O-AqlEID9sYptCBqGgRJmwtxzqa6sYc_wBW01yJHk/embed?start=false&loop=false&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<!-- Google embed ends -->
+</div>
+
+<h2 id="takeaway">Takeaway:</h2>
+
+<p>We ended up winning 4th overall. I was in charge of implementing the Twitter bot itself. The biggest challenge for me was implementing the <strong>Twitter API</strong> to send automated and consistent DMs (direct messages) to users from the bot.</p>
+
+<p>Oh, look there’s my <a href="https://twitter.com/kellyuyuu">Twitter</a> cameo too!</p>
+
+<p>This was <em>suprisingly</em> my first time actively working with <strong>Python</strong> ever (real shocker as a third-year, I know).</p>
+
+<p>Well, now it’s one of my favorite languages. Cool stuff 😄 <em>Woo hoo!</em>~~</p>
+
+:ET
