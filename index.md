@@ -5,7 +5,7 @@ layout: default
 <div class="lead pretty-links">
 
   **Hi!** My name is [Kelly Tran](about/) *(she/her)*
-  and I found my passion for programming again. 👩‍💻
+  and I recently found my passion for programming again. 👩‍💻
     
   I am a 4th year student studying *Computer Science* at **Georgia Tech**, but currently **@** Twitter as a *Software Engineer Intern* for Summer 2021. 
 

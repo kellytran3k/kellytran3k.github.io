@@ -55,6 +55,6 @@ def view_daily_results():
 
 Through this project, I learned the **integration process of SQL database with Python3** in order to develop a web application that updated and retrieved data in real time. This was one of my first times using a **virtual environment** to implement code, as well as using **MySQL** to call datasets. The web application can be functionally run locally. However, there is currently no plan of putting this simulator online.
 
-*Special thank you to: Michael Piseno, Yun Ha Jeon, and Holly M.*
+*Special thank you to: [Michael Piseno](https://www.michaelpiseno.com/), Yun Ha Jeon, and Holly M.*
 
 GitHub link: [GT Testing Simulator](https://github.com/kellytran3k/covid-testing-db)
