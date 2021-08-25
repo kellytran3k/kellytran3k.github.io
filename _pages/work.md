@@ -6,16 +6,12 @@ desc: Happy work, happy life.
 permalink: /work/
 ---
 
-**Quick Links**: [CV/Resume](/assets/Kelly_Tran_Resume.pdf)
-
----
-
 ## Overview
 
 <!-- logo sizes from LinkedIn should be adjusted to 0.5 to 0.5 -->
 <!-- ![](/assets/img/logos/twitter-logo.png) -->
 * **Software Engineer Intern (Twitter)**
-  * Summer 2021 - Ads Format
+  * worked on Android client to create media foundations feature to increase ads revenue and user engagement
 
 * **Teaching Assistant for Intro to Object-Oriented Programming**
   * hosted weekly recitations, developed JUnit tests, and organized course materials and learning objectives
