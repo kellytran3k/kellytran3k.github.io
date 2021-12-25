@@ -27,11 +27,11 @@ a student, developer, & lover of avatar: the last airbender.
 
 <!-- about me -->
 
-**Hello!** I'm a 4th year at [Georgia Tech](https://www.gatech.edu) studying **Computer Science**. My threads are in [Infonetworks x Media](https://catalog.gatech.edu/programs/media-information-internetworks-computer-science-bs/), and I am interested in the intersection of humans & computers, info-security, and the ethics of computing. 
+**Hello!** I'm a 4th year at [Georgia Tech](https://www.gatech.edu) studying **Computer Science**. My threads are in [Infonetworks x Media](https://catalog.gatech.edu/programs/media-information-internetworks-computer-science-bs/), and I am interested in full-stack software engineering and the ethics of computing. 
 
-I'm the daughter of Vietnamese refugees and heroes. I was born and raised on the outskirts of Atlanta, in a low-income household in a majority minority area. I am a first-generation college student, meaning that I am the first person in my extended family to attend college. **I am set to graduate from Georgia Tech in Spring 2022.**
+I'm the daughter of Vietnamese refugees and heroes. I was born and raised on the outskirts of Atlanta, in a low-income household in a majority minority area. I am a first-generation college student, meaning that I am the first person in my extended family to attend college.
 
-I am a curious individual who always aims to exceed expectations, and a fast learner in areas where I lack experience. Most of my technical knowledge comes from **hackathons**, **classes**, and [**experience**](/work/) as a TA and research assistant. In addition, I have recently been introducting myself to info-security topics as well. I like to practice by playing [CTF wargames](https://overthewire.org/wargames/). I strive to constantly learn, develop ethical code, and be the best who I can be. :)
+I am a curious individual who always aims to exceed expectations, and a fast learner in areas where I lack experience. Most of my technical knowledge comes from **hackathons**, **classes**, and [**experience**](/work/) as an intern, TA, and research assistant. I am an incoming Software Engineer at [Affirm](https://www.affirm.com/) where I'll be joining upon my graduation from **Georgia Tech in May 2022**.
 
 ---
 
