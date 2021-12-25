@@ -51,6 +51,7 @@ permalink: /work/
 
 > ## 2021
 > - **Jun 2021**: Started working at Twitter as SWE Intern
+> - **Sep 2021**: Attended #vGHC 2021
 > - **Dec 2021**: Accepted offer to join Affirm as SWE (Aug 2022)
 
 > ## 2020
