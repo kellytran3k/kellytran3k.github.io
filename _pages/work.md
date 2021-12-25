@@ -26,7 +26,7 @@ permalink: /work/
 
 ## Relevant Course Work
 
-**Threads/Concentration**: [Info-Networks x Media](https://catalog.gatech.edu/programs/media-information-internetworks-computer-science-bs/) (GPA: 3.81/4.00)
+**Threads/Concentration**: [Info-Networks x Media](https://catalog.gatech.edu/programs/media-information-internetworks-computer-science-bs/) (GPA: 3.73/4.00)
 
 * Intro Object Orient Prog (CS 1331)
 * Data Struct & Algorithms (CS 1332)
@@ -39,6 +39,11 @@ permalink: /work/
 * Computer Graphics (CS 3451)
 * Project Design (CS 3311)
 * Tech Comm Strategies (LMC 3432)
+* Intro to Info Security (CS 4235)
+* Design & Analysis-Algorithms (CS 3510)
+* Project Implementation (CS 3312)
+* Tech Comm Approaches (LMC 3431)
+
 
 ---
 
@@ -46,9 +51,10 @@ permalink: /work/
 
 > ## 2021
 > - **Jun 2021**: Started working at Twitter as SWE Intern
+> - **Dec 2021**: Accepted offer to join Affirm as SWE (Aug 2022)
 
 > ## 2020
-> - **Oct 2020**: Accepted to join Twitter as SWE Intern (Summer 2021)
+> - **Oct 2020**: Accepted offer to join Twitter as SWE Intern (Summer 2021)
 > - **Sep 2020**: Received [Grace Hopper Conference](https://ghc.anitab.org) Scholarship
 > - **Sep 2020**: Received [Tapia Conference](https://tapiaconference.cmd-it.org) Scholarship
 > - **Aug 2020**: Attended Twitter's Hackathon #BattleOfTheCamps
