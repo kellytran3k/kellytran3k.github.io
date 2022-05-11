@@ -3,7 +3,7 @@
 # Site settings
 title: Kelly Tran               # used for the html title of every page
 desc: >
-  Software Engineer Intern @ Twitter, Teaching Assistant, and Computer Science student interested in the intersection of computing, ethics, media, and human-interaction.
+  Software Engineer
 
 url: http://kellytran3k.github.io      # put your website hosting url here
 baseurl: ''                 # the subpath of your site, e.g. /blog

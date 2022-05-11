@@ -27,18 +27,18 @@ a student, developer, & lover of avatar: the last airbender.
 
 <!-- about me -->
 
-**Hello!** I'm a 4th year at [Georgia Tech](https://www.gatech.edu) studying **Computer Science**. My threads are in [Infonetworks x Media](https://catalog.gatech.edu/programs/media-information-internetworks-computer-science-bs/), and I am interested in full-stack software engineering and the ethics of computing. 
+**Hello!** I'm a recent grad from [Georgia Tech](https://www.gatech.edu) after graduating with a Bachelor's of Science in **Computer Science**. My threads were in [Infonetworks x Media](https://catalog.gatech.edu/programs/media-information-internetworks-computer-science-bs/), and I am interested in full-stack software engineering and the ethics of computing. 
 
 I'm the daughter of Vietnamese refugees and heroes. I was born and raised on the outskirts of Atlanta, in a low-income household in a majority minority area. I am a first-generation college student, meaning that I am the first person in my extended family to attend college.
 
-I am a curious individual who always aims to exceed expectations, and a fast learner in areas where I lack experience. Most of my technical knowledge comes from **hackathons**, **classes**, and [**experience**](/work/) as an intern, TA, and research assistant. I am an incoming Software Engineer at [Affirm](https://www.affirm.com/) where I'll be joining upon my graduation from **Georgia Tech in May 2022**.
+I am a curious individual who always aims to exceed expectations, and a fast learner in areas where I lack experience. Most of my technical knowledge comes from **hackathons**, **classes**, and [**experience**](/work/) as an intern, TA, and research assistant. I am an incoming Software Engineer at [Affirm](https://www.affirm.com/) where I'll be joining in **Aug 2022**.
 
 ---
 
 <!-- personal interests -->
 # Personal Interests
 
-**tennis & volleyball**
+**genshin impact**
 let's play a game some time :)
 
 **food**
@@ -48,7 +48,7 @@ in my free time you'll find me watching food reviews or cooking yummy foods. som
 it's what i mostly listen to when i code lol. the combination of bubble gum pop and not understanding the lyrics is quite euphoric.
 
 **tv shows**
-currently: fumetsu no anata e (to your eternity), haikkyu!!
+currently: fumetsu no anata e (to your eternity), attack on titan
 
 </div>
 

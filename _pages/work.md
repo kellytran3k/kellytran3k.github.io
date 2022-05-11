@@ -10,6 +10,7 @@ permalink: /work/
 
 <!-- logo sizes from LinkedIn should be adjusted to 0.5 to 0.5 -->
 <!-- ![](/assets/img/logos/twitter-logo.png) -->
+
 * **Software Engineer Intern (Twitter)**
   * worked on Android client to create media foundations feature to increase ads revenue and user engagement
 
@@ -26,7 +27,7 @@ permalink: /work/
 
 ## Relevant Course Work
 
-**Threads/Concentration**: [Info-Networks x Media](https://catalog.gatech.edu/programs/media-information-internetworks-computer-science-bs/) (GPA: 3.73/4.00)
+**Threads/Concentration**: [Info-Networks x Media](https://catalog.gatech.edu/programs/media-information-internetworks-computer-science-bs/) (GPA: 3.78/4.00)
 
 * Intro Object Orient Prog (CS 1331)
 * Data Struct & Algorithms (CS 1332)
@@ -34,25 +35,31 @@ permalink: /work/
 * Intro Discrete Math for CS (CS 2050)
 * Objects and Design (CS 2340)
 * Computers and Society (CS 4873)
-* Computer Organization &Program (CS 2110)
+* Computer Organization & Program (CS 2110)
 * Systems and Networks (CS 2200)
 * Computer Graphics (CS 3451)
+* Mobile Apps & Serv (CS 4261)
 * Project Design (CS 3311)
+* Video Game Design (CS 4455)
+* Computer Audio (CS 4590)
+* Applied Combinatorics (MATH 3012)
 * Tech Comm Strategies (LMC 3432)
 * Intro to Info Security (CS 4235)
 * Design & Analysis-Algorithms (CS 3510)
 * Project Implementation (CS 3312)
 * Tech Comm Approaches (LMC 3431)
 
-
 ---
 
 ## news:
 
+> ## 2022
+> - **May 2022**: Graduated from Georgia Tech with a B.S in Computer Science
+
 > ## 2021
 > - **Jun 2021**: Started working at Twitter as SWE Intern
 > - **Sep 2021**: Attended #vGHC 2021
-> - **Dec 2021**: Accepted offer to join Affirm as SWE (Aug 2022)
+> - **Aug 2021**: TA'd for GT's CS 1331 (Fall 2021)
 
 > ## 2020
 > - **Oct 2020**: Accepted offer to join Twitter as SWE Intern (Summer 2021)
@@ -60,7 +67,7 @@ permalink: /work/
 > - **Sep 2020**: Received [Tapia Conference](https://tapiaconference.cmd-it.org) Scholarship
 > - **Aug 2020**: Attended Twitter's Hackathon #BattleOfTheCamps
 > - **Jun 2020**: Attended Twitter's #TechProud
-> - **May 2020**: Started position to TA for GT's CoC
+> - **May 2020**: TA'd for GT's CS 1331 (Summer 2020 - Fall 2020)
 > - **Feb 2020**: Attended HackUGA 5
 
 > ## 2019
