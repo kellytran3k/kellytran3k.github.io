@@ -59,23 +59,23 @@ permalink: /work/
 
 > ## 2021
 > - **Jun 2021**: Started working at Twitter as SWE Intern
-> - **Sep 2021**: Attended #vGHC 2021
 > - **Aug 2021**: TA'd for GT's CS 1331 (Fall 2021)
+> - **Sep 2021**: Attended #vGHC 2021
 
 > ## 2020
-> - **Oct 2020**: Accepted offer to join Twitter as SWE Intern (Summer 2021)
-> - **Sep 2020**: Received [Grace Hopper Conference](https://ghc.anitab.org) Scholarship
-> - **Sep 2020**: Received [Tapia Conference](https://tapiaconference.cmd-it.org) Scholarship
-> - **Aug 2020**: Attended Twitter's Hackathon #BattleOfTheCamps
-> - **Jun 2020**: Attended Twitter's #TechProud
-> - **May 2020**: TA'd for GT's CS 1331 (Summer 2020 - Fall 2020)
 > - **Feb 2020**: Attended HackUGA 5
+> - **May 2020**: TA'd for GT's CS 1331 (Summer 2020 - Fall 2020)
+> - **Jun 2020**: Attended Twitter's #TechProud
+> - **Aug 2020**: Attended Twitter's Hackathon #BattleOfTheCamps
+> - **Sep 2020**: Received [Tapia Conference](https://tapiaconference.cmd-it.org) Scholarship
+> - **Sep 2020**: Received [Grace Hopper Conference](https://ghc.anitab.org) Scholarship
+> - **Oct 2020**: Accepted offer to join Twitter as SWE Intern (Summer 2021)
 
 > ## 2019
-> - **Oct 2019**: Attended HackGT 7
+> - **Feb 2019**: Placed 1st at HackGSU
 > - **Aug 2019**: Started [research](/projects/pet-pals/) under Dr. Awad Mussa
 > - **Aug 2019**: Named a NCR Scholar
-> - **Feb 2019**: Placed 1st at HackGSU
+> - **Oct 2019**: Attended HackGT 7
 
 > ## 2018
 > - **Sep 2018**: Received AANAPISI Scholarship
