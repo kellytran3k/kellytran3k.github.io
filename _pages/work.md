@@ -54,6 +54,7 @@ permalink: /work/
 ## news:
 
 > ## 2022
+> - **Jan 2022**: Started private tutoring locally to AP CS and College CS students
 > - **May 2022**: Graduated from Georgia Tech with a B.S in Computer Science
 
 > ## 2021

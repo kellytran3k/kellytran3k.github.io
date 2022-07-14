@@ -39,7 +39,7 @@ I am a curious individual who always aims to exceed expectations, and a fast lea
 # Personal Interests
 
 **genshin impact**
-let's play a gamer together some time :)
+let's play a game together some time :)
 
 **food**
 in my free time you'll find me watching food reviews or. sometime in the near future, i want to do an international food tour!
