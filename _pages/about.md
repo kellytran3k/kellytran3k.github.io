@@ -31,7 +31,7 @@ a student, developer, & lover of avatar: the last airbender.
 
 I'm the daughter of Vietnamese refugees and heroes. I was born and raised on the outskirts of Atlanta, in a low-income household in a majority minority area. I am a first-generation college student, meaning that I am the first person in my extended family to attend college.
 
-I am a curious individual who always aims to exceed expectations, and a fast learner in areas where I lack experience. Most of my technical knowledge comes from **hackathons**, **classes**, and [**experience**](/work/) as an intern, TA, and research assistant. I am an incoming Software Engineer at [Affirm](https://www.affirm.com/) where I'll be joining in **Aug 2022**.
+I am a curious individual who always aims to exceed expectations, and a fast learner in areas where I lack experience. Most of my technical knowledge comes from **hackathons**, **classes**, and [**experience**](/work/) as an intern, TA, and research assistant. I am a Software Engineer at [Affirm](https://www.affirm.com/) since **Aug 2022**.
 
 ---
 
@@ -42,13 +42,13 @@ I am a curious individual who always aims to exceed expectations, and a fast lea
 let's play a game some time together :)
 
 **food**
-in my free time you'll find me watching food reviews or. sometime in the near future, i want to do an international food tour!
+in my free time you'll find me watching food reviews or recipe vids. sometime in the near future, i want to do an international food tour!
 
 **k-pop**
 it's what i mostly listen to when i code lol. the combination of bubble gum pop and not understanding the lyrics is quite euphoric.
 
 **tv shows**
-currently: fumetsu no anata e (to your eternity), attack on titan, spy x family
+currently: the boys, teen wolf (rewatch), spy x family
 
 </div>
 

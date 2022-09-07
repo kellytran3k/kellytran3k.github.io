@@ -11,6 +11,9 @@ permalink: /work/
 <!-- logo sizes from LinkedIn should be adjusted to 0.5 to 0.5 -->
 <!-- ![](/assets/img/logos/twitter-logo.png) -->
 
+* **Software Engineer (Affirm)**
+  * backend eng
+
 * **Software Engineer Intern (Twitter)**
   * worked on Android client to create media foundations feature to increase ads revenue and user engagement
 
@@ -56,6 +59,7 @@ permalink: /work/
 > ## 2022
 > - **Jan 2022**: Started private tutoring locally to AP CS and College CS students
 > - **May 2022**: Graduated from Georgia Tech with a B.S in Computer Science
+> - **Aug 2022**: Started work at Affirm
 
 > ## 2021
 > - **Jun 2021**: Started working at Twitter as SWE Intern
