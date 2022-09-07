@@ -53,7 +53,6 @@ permalink: /work/
 > - **Aug 2020**: Attended Twitter's Hackathon #BattleOfTheCamps
 > - **Sep 2020**: Received [Tapia Conference](https://tapiaconference.cmd-it.org) Scholarship
 > - **Sep 2020**: Received [Grace Hopper Conference](https://ghc.anitab.org) Scholarship
-> - **Oct 2020**: Accepted offer to join Twitter as SWE Intern (Summer 2021)
 
 > ## 2019
 > - **Feb 2019**: Placed 1st at HackGSU
