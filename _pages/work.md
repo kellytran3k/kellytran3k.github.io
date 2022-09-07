@@ -28,29 +28,9 @@ permalink: /work/
   * tasked with introducing the MVP for an app that worked with a prototype reverse-vending machine designed to increase and incentive recycling at Georgia State University
 
 
-## Relevant Course Work
+## Education
 
-**Threads/Concentration**: [Info-Networks x Media](https://catalog.gatech.edu/programs/media-information-internetworks-computer-science-bs/) (GPA: 3.78/4.00)
-
-* Intro Object Orient Prog (CS 1331)
-* Data Struct & Algorithms (CS 1332)
-* Intro Multivariable Calc (MATH 2550)
-* Intro Discrete Math for CS (CS 2050)
-* Objects and Design (CS 2340)
-* Computers and Society (CS 4873)
-* Computer Organization & Program (CS 2110)
-* Systems and Networks (CS 2200)
-* Computer Graphics (CS 3451)
-* Mobile Apps & Serv (CS 4261)
-* Project Design (CS 3311)
-* Video Game Design (CS 4455)
-* Computer Audio (CS 4590)
-* Applied Combinatorics (MATH 3012)
-* Tech Comm Strategies (LMC 3432)
-* Intro to Info Security (CS 4235)
-* Design & Analysis-Algorithms (CS 3510)
-* Project Implementation (CS 3312)
-* Tech Comm Approaches (LMC 3431)
+**Threads/Concentration**: [Info-Networks x Media](https://catalog.gatech.edu/programs/media-information-internetworks-computer-science-bs/)
 
 ---
 
