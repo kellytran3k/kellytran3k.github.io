@@ -37,6 +37,9 @@ navigation:
   - title: Experience
     url: /work/
     desc: Stuff I do
+  - title: Fun Stuff
+    url: /fun-stuff/
+    desc: Fun things I made
   - title: About
     url: /about/
     desc: about
@@ -63,6 +66,7 @@ include:
 exclude:
   - README.md
   - vendor
+  - stickers-to-memories
 gems:
   - jekyll-paginate
 paginate: 10
